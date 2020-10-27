@@ -10,7 +10,7 @@ const IndexPage = (props: any) => (
         <a>About</a>
       </Link>
     </p>
-    <div>{JSON.stringify(props.allMovies, null, 2)}</div>
+    <pre>{JSON.stringify(props.allMovies, null, 2)}</pre>
   </Layout>
 );
 
